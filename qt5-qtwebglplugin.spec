@@ -29,6 +29,7 @@ BuildRequires:	pkgconfig(Qt5OpenGL) >= %{version}
 BuildRequires:	pkgconfig(Qt5WebSockets) >= %{version}
 BuildRequires:	pkgconfig(Qt5Gui) >= %{version}
 BuildRequires:	%mklibname -d -s qt5fontdatabasesupport
+BuildRequires:	%mklibname -d -s qt5eventdispatchersupport
 # For the Provides: generator
 BuildRequires:	cmake >= 3.11.0-1
 
