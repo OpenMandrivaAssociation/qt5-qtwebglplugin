@@ -25,6 +25,9 @@ URL:		http://www.qt.io
 BuildRequires:	qmake5
 BuildRequires:	pkgconfig(Qt5Core) >= %{version}
 BuildRequires:	pkgconfig(Qt5Quick) >= %{version}
+BuildRequires:	pkgconfig(Qt5OpenGL) >= %{version}
+BuildRequires:	pkgconfig(Qt5WebSockets) >= %{version}
+BuildRequires:	pkgconfig(Qt5Gui) >= %{version}
 # For the Provides: generator
 BuildRequires:	cmake >= 3.11.0-1
 
