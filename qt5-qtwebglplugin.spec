@@ -24,6 +24,7 @@ License:	GPLv3
 URL:		http://www.qt.io
 BuildRequires:	qmake5
 BuildRequires:	pkgconfig(Qt5Core) >= %{version}
+BuildRequires:	pkgconfig(Qt5DBus) >= %{version}
 BuildRequires:	pkgconfig(Qt5Quick) >= %{version}
 BuildRequires:	pkgconfig(Qt5OpenGL) >= %{version}
 BuildRequires:	pkgconfig(Qt5WebSockets) >= %{version}
