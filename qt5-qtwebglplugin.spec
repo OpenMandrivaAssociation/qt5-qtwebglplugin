@@ -18,7 +18,6 @@ Release:	1
 %define qttarballdir qtwebglplugin-everywhere-src-%{version}
 Source0:	http://download.qt.io/official_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}/submodules/%{qttarballdir}.tar.xz
 %endif
-Source1000:	%{name}.rpmlintrc
 Summary:	WebGL platform plugin for Qt Quick applications
 Group:		Development/KDE and Qt
 License:	GPLv3
