@@ -29,6 +29,9 @@ BuildRequires:	pkgconfig(Qt5Quick) >= %{version}
 BuildRequires:	pkgconfig(Qt5OpenGL) >= %{version}
 BuildRequires:	pkgconfig(Qt5WebSockets) >= %{version}
 BuildRequires:	pkgconfig(Qt5Gui) >= %{version}
+BuildRequires:	pkgconfig(glib-2.0)
+BuildRequires:	pkgconfig(fontconfig)
+BuildRequires:	pkgconfig(freetype2)
 BuildRequires:	%mklibname -d -s qt5fontdatabasesupport
 BuildRequires:	%mklibname -d -s qt5eventdispatchersupport
 BuildRequires:	%mklibname -d -s qt5themesupport
