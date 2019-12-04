@@ -1,6 +1,6 @@
 %define api %(echo %{version} |cut -d. -f1)
 %define major %api
-%define beta beta3
+%define beta rc
 
 %define qtwebglplugin %mklibname qt%{api}webglplugin %{major}
 %define qtwebglplugind %mklibname qt%{api}webglplugin -d
