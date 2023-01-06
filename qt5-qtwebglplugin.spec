@@ -8,7 +8,7 @@
 %define _qt5_prefix %{_libdir}/qt%{api}
 
 Name:		qt5-qtwebglplugin
-Version:	5.15.7
+Version:	5.15.8
 %if "%{beta}" != ""
 Release:	0.%{beta}.1
 %define qttarballdir qtwebglplugin-everywhere-src-%{version}-%{beta}
