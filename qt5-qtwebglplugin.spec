@@ -23,7 +23,7 @@ Source0:	http://download.qt.io/official_releases/qt/%(echo %{version}|cut -d. -f
 Summary:	WebGL platform plugin for Qt Quick applications
 Group:		Development/KDE and Qt
 License:	GPLv3
-URL:		http://www.qt.io
+URL:		https://www.qt.io
 BuildRequires:	qmake5
 BuildRequires:	pkgconfig(Qt5Core) >= %{version}
 BuildRequires:	pkgconfig(Qt5DBus) >= %{version}
