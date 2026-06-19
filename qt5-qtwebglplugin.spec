@@ -8,7 +8,7 @@
 %define _qt5_prefix %{_libdir}/qt%{api}
 
 Name:		qt5-qtwebglplugin
-Version:	5.15.18
+Version:	5.15.19
 %if "%{beta}" != ""
 Release:	0.%{beta}.1
 %define qttarballdir qtwebglplugin-everywhere-src-%{version}-%{beta}
@@ -16,7 +16,7 @@ Source0:	http://download.qt.io/development_releases/qt/%(echo %{version}|cut -d.
 %else
 Release:	1
 %define qttarballdir qtwebglplugin-everywhere-opensource-src-%{version}
-Source0:	http://download.qt.io/official_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}/submodules/%{qttarballdir}.tar.xz
+Source0:	http://download.qt.io/archive/qt/%(echo %{version}|cut -d. -f1-2)/%{version}/submodules/%{qttarballdir}.tar.xz
 %endif
 # From KDE
 # [currently no patches]
